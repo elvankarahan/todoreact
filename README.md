@@ -1,22 +1,22 @@
-## Available Scripts
+#### ToDo React
+------------
 
-In the project directory, you can run:
+This is a Front-End project of ToDo application.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###### Run the Project
+	npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###### Docker Hub
+Pull the image
 
-### `npm run build`
+	docker pull elvankarahan/todoreact:latest
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run
+
+	docker run -p 3000:3000 -t todoreact:latest
+
+
 
